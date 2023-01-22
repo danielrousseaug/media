@@ -25,6 +25,24 @@
   gtag('config', 'AW-10997025946');
 </script>
 
+<!-- Event snippet for Funnel Click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-10997025946/2C22CJvH-YgYEJqZ5fso',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<!-- GOOGLE TAG SHIT -->
+
 
 </script>
 <script src='//cdn.clkmc.com/cmc.js'></script>
@@ -100,7 +118,7 @@
 <h2 class="ne elHeadline hsSize2 lh3 elMargin0 elBGStyle0 hsTextShadow0" style="text-align: center; font-size: 12px;" data-bold="inherit" data-gramm="false" contenteditable="false"><b>&nbsp;Please make sure your sound is turned on. Wait up to 10 seconds for the video to load.</b></h2>
 </div>
 <div class="de elBTN elAlign_center elMargin0 ui-droppable de-editable" id="tmp_button-19303" data-de-type="button" data-de-editing="false" data-title="button" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 20px; outline: none; cursor: pointer;" aria-disabled="false">
-<a href="https://hop.clickbank.net/?affiliate=powersell3&vendor=fluxactive&pid=main&tid=[cmc_vid]" class="elButton elButtonSize1 elButtonColor1 elButtonRounded elButtonPadding2 elBtnVP_10 elButtonFluid elBtnHP_25 elButtonShadowN1 elButtonTxtColor1 elBTN_b_5 elButtonCorner10" style="color: rgb(0, 52, 255); font-weight: 600; background-color: rgb(254, 255, 0); font-size: 30px;" rel="noopener noreferrer">
+<a href="https://hop.clickbank.net/?affiliate=powersell3&vendor=fluxactive&pid=main&tid=[cmc_vid]" onclick="gtag_report_conversion(window.location)" class="elButton elButtonSize1 elButtonColor1 elButtonRounded elButtonPadding2 elBtnVP_10 elButtonFluid elBtnHP_25 elButtonShadowN1 elButtonTxtColor1 elBTN_b_5 elButtonCorner10" style="color: rgb(0, 52, 255); font-weight: 600; background-color: rgb(254, 255, 0); font-size: 30px;" rel="noopener noreferrer">
 <span class="elButtonMain">WATCH THE VIDEO NOW &gt;&gt;</span>
 <span class="elButtonSub"></span>
 </a>
@@ -128,7 +146,7 @@
 </div>
 </div>
 <div class="de elBTN elAlign_center elMargin0 ui-droppable de-editable" id="button-11163" data-de-type="button" data-de-editing="false" data-title="button" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 20px; outline: none; cursor: pointer;" aria-disabled="false">
-<a href="https://hop.clickbank.net/?affiliate=powersell3&vendor=fluxactive&pid=main&tid=[cmc_vid]" class="elButton elButtonSize1 elButtonColor1 elButtonRounded elButtonPadding2 elBtnVP_10 elButtonFluid elBtnHP_25 elButtonShadowN1 elButtonTxtColor1 elBTN_b_5 elButtonCorner10" style="color: rgb(0, 52, 255); font-weight: 600; background-color: rgb(254, 255, 0); font-size: 30px;" rel="noopener noreferrer" id="undefined-742">
+<a href="https://hop.clickbank.net/?affiliate=powersell3&vendor=fluxactive&pid=main&tid=[cmc_vid]" onclick="gtag_report_conversion(window.location)" class="elButton elButtonSize1 elButtonColor1 elButtonRounded elButtonPadding2 elBtnVP_10 elButtonFluid elBtnHP_25 elButtonShadowN1 elButtonTxtColor1 elBTN_b_5 elButtonCorner10" style="color: rgb(0, 52, 255); font-weight: 600; background-color: rgb(254, 255, 0); font-size: 30px;" rel="noopener noreferrer" id="undefined-742">
 <span class="elButtonMain">WATCH THE VIDEO NOW &gt;&gt;</span>
 <span class="elButtonSub"></span>
 </a>
@@ -176,7 +194,7 @@
 <input type="text" placeholder="Enter Your Full Name" name="email" class="elInput elInput100 elAlign_left elInputMid elInputBG1 elInputBR5 elInputILeft elInputStyle1 elInputIEmail elInputIColor required1" data-type="extra">
 </div>
 <div class="de elBTN elMargin0 elAlign_left ui-droppable de-editable" id="button-14469" data-de-type="button" data-de-editing="false" data-title="button" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 20px; outline: none; cursor: pointer; display: block;" aria-disabled="false">
-<a href="https://vitalitysourcelimited.clickfunnels.com/squeeze-page1664768135015#submit-form" class="elButton elButtonColor1 elButtonFull elButtonBottomBorder elButtonSize1" style="color: rgb(255, 255, 255); background-color: rgb(91, 153, 69);" data-previous-content="
+<a href="https://vitalitysourcelimited.clickfunnels.com/squeeze-page1664768135015#submit-form" onclick="gtag_report_conversion(window.location)" class="elButton elButtonColor1 elButtonFull elButtonBottomBorder elButtonSize1" style="color: rgb(255, 255, 255); background-color: rgb(91, 153, 69);" data-previous-content="
 &lt;span class=&quot;elButtonMain&quot;&gt;Sign Up Now to Get Free Report&lt;/span&gt;
 &lt;span class=&quot;elButtonSub&quot;&gt;&lt;/span&gt;
 " data-href-original="#submit-form">
